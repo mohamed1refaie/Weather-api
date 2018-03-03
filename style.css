@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:500|Lato:400,700|Roboto:100');
+html {
+	height: 100%;
+}
+body {
+	font-family: 'Catamaran', sans-serif;font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	background: radial-gradient(circle, #22baf7, #185d68);
+	height: 100%;
+	color: white;
+}
+#title {
+	margin-top: 5%;
+}
+#app {
+	background-color: #22baf7;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: 0px 0px 20px #000000;
+}
+#time, #date {
+	font-family: 'Roboto', sans-serif;
+}
+.bar {
+	background-color: #09b3f6;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 5px;
+}
+.wi {
+	font-size: 120px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#tempdiv {
+	font-family: 'Lato', sans-serif;
+	font-size: 170%;
+	font-weight: bold;
+}
+#address {
+	font-size: 25px;
+	margin-top: 12px;
+}
+#unit {
+	border-style: solid;
+  border-width: 5px;
+	border-radius: 15px;
+	border-color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	background-color: #09b3f6;
+}
+#unit:hover {
+	background-color: white;
+	color: #09b3f6;
+}
